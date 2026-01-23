@@ -1,0 +1,83 @@
+
+body{
+    display: grid;
+    height: 100vh;
+    font-style: italic;
+    font-size: xx-large;
+    padding-left: 25%;
+    padding-right: 25%;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-areas:
+        "a  b  c"
+        "d  .  e"
+        "f  g  h"
+        "i  k  k"
+        "j  k  k"
+}
+
+#a{
+    grid-area: a;
+    background-image: url(images/a.jpg);
+    background-size: cover;
+}
+
+#b{
+    grid-area: b;
+    background-image: url(images/b.webp);
+    background-size: cover;
+}
+
+#c{
+    grid-area: c;
+    background-image: url(images/c.jpg);
+    background-size: cover;
+}
+
+#d{
+    grid-area: d;
+    background-image: url(images/d.jpg);
+    background-size: cover;
+}
+
+#e{
+    grid-area: e;
+    background-image: url(images/e.jpg);
+    background-size: cover;
+}
+
+#f{
+    grid-area: f;
+    background-image: url(images/f.jpg);
+    background-size: cover;
+}
+
+#g{
+    grid-area: g;
+    background-image: url(images/g.webp);
+    background-size: cover;
+}
+
+#h{
+    grid-area: h;
+    background-image: url(images/h.jpg);
+    background-size: cover;
+}
+
+#i{
+    grid-area: i;
+    background-image: url(images/i.jpg);
+    background-size: cover;
+}
+
+#j{
+    grid-area: j;
+    background-image: url(images/j.jpg);
+    background-size: cover;
+}
+
+#k{
+    grid-area: k;
+    background-image: url(images/k.jpg);
+    background-size: cover;
+    font-size: 20px;
+}
